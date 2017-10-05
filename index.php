@@ -58,18 +58,18 @@
             
         <h2>Flight Bookings</h2>
         <div>
-            <form>
+            <form action="php/search_flight.php" method="post">
                 <input type="radio" name="trip">Round Way
                 <input type="radio" name="trip">One Way
                 <input type="radio" name="trip">Multicity
                 <table>
                      <tr>
-                         <td><input type="text" placeholder="From"\></td>
-                         <td><input type="text" placeholder="To"\></td>
+                         <td><input type="text" placeholder="From" name="from"\></td>
+                         <td><input type="text" placeholder="To" name="to"\></td>
                          <td><input type="text" id="datepicker" placeholder="Depart"\></td>                    
                          <td><input type="text" id="datepicker2" placeholder="Return"\></td>
                          <td><input type="text" placeholder="No.of Passengers"\></td>
-                         <td><input type="button" value="Search Flights"\></td>
+                         <td><input type="submit" name="search" value="Search Flights" \></td>
                     </tr>
                 </table>
             </form>   
@@ -85,15 +85,15 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="images.jpeg" alt="Los Angeles">
+      <img src="images/img1.jpeg" alt="Los Angeles">
     </div>
 
     <div class="item">
-      <img src="index.jpeg" alt="Chicago">
+      <img src="images/img2.jpeg" alt="Chicago">
     </div>
 
     <div class="item">
-      <img src="images.jpg" alt="New York">
+      <img src="images/img3.jpeg" alt="New York">
     </div>
   </div>
 
