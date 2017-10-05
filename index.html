@@ -58,18 +58,18 @@
             
         <h2>Flight Bookings</h2>
         <div>
-            <form>
+            <form action="php/search.php" method="post">
                 <input type="radio" name="trip">Round Way
                 <input type="radio" name="trip">One Way
                 <input type="radio" name="trip">Multicity
                 <table>
                      <tr>
-                         <td><input type="text" placeholder="From"\></td>
-                         <td><input type="text" placeholder="To"\></td>
+                         <td><input type="text" name="from" placeholder="From"\></td>
+                         <td><input type="text" name="to" placeholder="To"\></td>
                          <td><input type="text" id="datepicker" placeholder="Depart"\></td>                    
                          <td><input type="text" id="datepicker2" placeholder="Return"\></td>
                          <td><input type="text" placeholder="No.of Passengers"\></td>
-                         <td><input type="button" value="Search Flights"\></td>
+                         <td><input type="submit" name="search"value="Search Flights"\></td>
                     </tr>
                 </table>
             </form>   
