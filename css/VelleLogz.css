@@ -1,0 +1,121 @@
+.float{
+    float="right";
+}
+.page-header{
+    padding-bottom: 20px;
+    background: red;
+    margin-bottom: 0px;
+}
+#myinput{
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:right;
+    height:17px;
+    margin:0 0 0 .5em; 
+    outline:0;
+    width:183px; 
+    position: absolute;
+}
+  
+#button-holder{
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    float:left;
+    height:25px;
+    margin:25 0 0 .5em; 
+    text-align:center;
+    width:50px;
+}
+  
+#button-holder img{
+    margin:4px;
+    width:20px; 
+}
+
+.short{
+    float:right;
+    
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.nav1{
+    margin-top: 0;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+.ui-datepicker-next span{
+  float: right;
+}
