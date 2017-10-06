@@ -15,9 +15,9 @@ if(isset($_POST['search'])){
     $result =mysqli_query($conn,$qry1) or die("bad query");
     #echo{"$res=mysqli_fetch_array($result)"};
     echo"<table border='1'>"; 
-    echo"<tr><td>Flight_no</td><td>DEpt</td><td>Arr</td><td>fare</td><tr>";    
+    echo"<tr><td>Flight_no</td><td>Dept</td><td>Arr</td><td>fare</td><tr>";    
     while($row=mysqli_fetch_assoc($result)){
-          echo"<tr><td>{$row['a_no']}</td><td>{$row['a_tdept']}</td><td>{$row['a_tavl']}</td><td>{$row['a_fare']}</td><tr>"; 
+          echo"<tr><td>{$row['a_no']}</td><td>{$row['a_tdpt']}</td><td>{$row['a_tavl']}</td><td>{$row['a_fare']}</td><tr>"; 
      }
     echo"</table>";
 }
