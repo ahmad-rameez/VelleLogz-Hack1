@@ -1,10 +1,42 @@
 .float{
     float="right";
 }
+body {
+    background-color: #61122f;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    padding-top: 0 px;
+    padding-bottom:0 px;
+    padding-left:0 px;
+    padding-right: 0 px;
+}
 .page-header{
     padding-bottom: 20px;
-    background: red;
+    padding-top: 0px;
     margin-bottom: 0px;
+    background-image: url(https://stackoverflow.com/questions/20039765/how-to-apply-a-css-3-blur-filter-to-a-background-ima);
+    background: #f9e102;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.container-fluid{
+   margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+
+}
+
+#fontt{
+    font-family: cursive;
+    text-align: center;
+    font-size:30px;
+    font-size-adjust: auto;
+    text-shadow: 20%;
+    margin-top:auto;
 }
 #myinput{
     border-top:thin solid  #e5e5e5;
@@ -69,7 +101,37 @@ li a:hover {
     margin-top: 0;
 }
 
-
+table{
+    /*border: 1px solid black;*/
+    background-color: beige;
+    padding: 20px;
+    border-spacing: 10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    borfder-radius: 100px;
+    border-color:black;
+}
+/*tr:nth-child{background-color: #f2f2f2}*/
+td{
+    /*border-bottom-style: groove;*/
+    padding: 20px;
+    width: 10%;
+    
+    border-bottom-color:azure;
+    background-color:beige;
+   /* border-radius: 20px;*/
+}
+tr{
+    height: 20px;
+}
+#aparna{
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+} 
 /* Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
@@ -118,4 +180,11 @@ li a:hover {
 }
 .ui-datepicker-next span{
   float: right;
+}
+.button
+{
+    
+background-image: url("E:\hackathon\images\7.jpg");
+border-radius: 10px;
+width: 110%;
 }
