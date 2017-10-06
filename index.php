@@ -28,9 +28,10 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="page-header">
-            <h1>VelleLogz</h1>
-            <span id=><a>Log In </a>|<a> Sign Up</a></span>
+        <div class="row">
+        <div class="page-header" background-image="E:\hackathon\images\header.jpg">
+            <h1 id="fontt" style="font-size: 30px">VelleLogz</h1>
+            <span style="cursor: default"><a href="#">Log In </a>|<a href="#"> Sign Up</a></span>
             <div class="short">
                 <form>
                 <input type="text" placeholder="Search" id="myinput /">
@@ -40,7 +41,7 @@
                 </form>
             </div>
         </div>
-    <div class="nav1">
+    <div class="nav1"></div>
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#news">My Bookings</a></li>
@@ -50,7 +51,7 @@
         <li style="float:right"><a class="active" href="#about">Contact Us</a></li>
     </ul>
      </div>
-        
+    </div>
         
         
         
@@ -58,23 +59,26 @@
             
         <h2>Flight Bookings</h2>
         <div>
-            <form action="php/search_flight.php" method="post">
-                <input type="radio" name="trip">Round Way
-                <input type="radio" name="trip">One Way
-                <input type="radio" name="trip">Multicity
+            <form action="php/search_flight.php" method="post" >
+                <input type="radio" name="trip">  <b style="font-size: 20px" >Round Way</b>   
+                <input type="radio" name="trip">  <b style="font-size: 20px">One Way</b>
+                <input type="radio" name="trip">  <b style="font-size: 20px">Multicity</b>
+                <div>
                 <table>
                      <tr>
-                         <td><input type="text" placeholder="From" name="from"\></td>
-                         <td><input type="text" placeholder="To" name="to"\></td>
-                         <td><input type="text" id="datepicker" placeholder="Depart"\></td>                    
-                         <td><input type="text" id="datepicker2" placeholder="Return"\></td>
-                         <td><input type="text" placeholder="No.of Passengers"\></td>
-                         <td><input type="submit" name="search" value="Search Flights" \></td>
+                         <td height="50%"><input type="text" name="from" placeholder="     From" style="border:1px solid #111111; border-radius:30px;" \></td>
+                         <td height="50%"><input type="text" name="to" placeholder="     To" style="border:1px solid #111111;border-radius:30px" \></td>
+                         <td height="50%"><input type="text" id="datepicker" placeholder="     Depart" style="border:1px solid #111111;border-radius:30px" \></td>                    
+                         <td height="50%"><input type="text" id="datepicker2" placeholder="     Return" style="border:1px solid #111111;border-radius:30px" \></td>
+                         <td height="50%"><input type="text" placeholder="     No.of Passengers" style="border:1px solid #111111;border-radius:30px" \></td>
+                         <td height="50%"><button type="submit" name="search" form="form1" value="Search Flights" class="button">Search Flights</button></td>
                     </tr>
                 </table>
+                </div>
             </form>   
-        </div>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        </div>
+        
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -85,15 +89,18 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="images/img1.jpeg" alt="Los Angeles">
+      <img src="E:\hackathon\images\22.jpg" alt="Offers" width="1330" height="300">
     </div>
 
     <div class="item">
-      <img src="images/img2.jpeg" alt="Chicago">
+      <img src="E:\hackathon\images\55.jpg" alt="" width="1330" height="300">
     </div>
 
     <div class="item">
-      <img src="images/img3.jpeg" alt="New York">
+      <img src="E:\hackathon\images\11.jpg" alt="" width="1330" height="300">
+    </div>
+    <div class="item">
+      <img src="E:\hackathon\images\11.jpg" alt="" width="1330" height="300">
     </div>
   </div>
 
@@ -106,7 +113,7 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
     <span class="sr-only">Next</span>
   </a>
-        </div>
+        </div> 
         <hr/>
     
      <footer>
@@ -114,7 +121,7 @@
      <b style="font-size: 20px">Get to know us</b>                        <b style="font-size: 20px">Services</b>                                 <b style="font-size: 20px">Talk to Us</b>                            
      
      
-     <div style="float: right;">
+     <div style="float: right; cursor:default">
  <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
  <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i> 
  <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i> 
@@ -140,8 +147,7 @@
 
                                                  
     </pre>  
-        
-</footer>
+ </footer>
 
         </div>
    
